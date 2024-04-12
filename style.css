@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* для изменения алгоритма перерасчета высоты и ширины */
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  /* обнуляет значение по умолчанию */
+  outline: 0;
+}
+
+button {
+  border: 0;
+}
+
+.card {
+  border: solid rebeccapurple;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__h {
+  color: blue;
+}
+
+.card__p {
+  color: cadetblue;
+}
