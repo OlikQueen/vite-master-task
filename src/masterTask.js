@@ -17,7 +17,6 @@ function createCard (item, wrapper) {
     wrapper.appendChild(card);
   }
   
-  
   export const masterTask = () => {
     const xhr = new XMLHttpRequest();
   
